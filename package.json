@@ -1,0 +1,30 @@
+{
+  "name": "views-test-rollup",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Views (viewsdx.com), React, and webpack test app",
+  "main": "index.js",
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "BSD-Clause-3",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-react-app": "^2.2.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.8",
+    "react": "next",
+    "react-dom": "next",
+    "react-router-dom": "^4.1.1",
+    "react-time": "^4.3.0",
+    "style-to-css": "^1.0.3",
+    "views-blocks-react-dom": "^0.0.1",
+    "views-loader": "^0.0.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --port 3000"
+  }
+}
